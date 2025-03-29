@@ -1,0 +1,126 @@
+
+/*Shiggy loading*/
+.content_a2f514 {
+    display: flex;
+    flex-direction: column;
+    > .spinner_a2f514 { display: none }
+    &:before {
+        display: block;
+        height: 128px;
+        position: relative;
+        content: url(https://raw.githubusercontent.com/Vencord/Vesktop/refs/heads/main/static/shiggy.gif);
+        image-rendering: pixelated;
+         align-content: center;
+         scale: 3.125;
+         margin-bottom: 96px;
+    }
+}
+/* Aligned Chat Box and Typing indicator */
+.container_c48ade {
+  --custom-chat-input-margin-bottom: 22px;
+}
+:root {
+  --custom-channel-textarea-text-area-height: 42px;
+}
+.visual-refresh .base_b88801 {
+  font-size: 13.5px;
+  height: 22px;
+  display: flex !important;
+  align-items: center !important;
+}
+/* Round Server Icons */
+[class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
+[data-list-item-id*="guildsnav_"] > [class*="icon_"] {
+    border-radius: 50% !important;
+}
+/*Spotify Player*/
+.theme-dark #vc-spotify-player {
+    background: transparent;
+}
+#vc-spotify-player {
+    padding: .25rem .5rem;
+    border-bottom: none;
+}
+/*game stream border*/
+.visual-refresh .panel__5dec7 {
+    border-bottom: none;
+}
+/*Channel Text Area*/
+.visual-refresh .channelTextArea_f75fb0 {
+    background: transparent !important;
+}
+/*Chat Border*/
+:where(html:not(.visual-refresh-chat-input)) .channelTextArea__74017:focus-within {
+    box-shadow: none;
+}
+:where(html:not(.visual-refresh-chat-input)) .channelTextArea__74017 {
+    box-shadow: none;
+}
+.visual-refresh .channelTextArea__74017:focus-within {
+    box-shadow: none !important;
+}
+.visual-refresh .channelTextArea__74017:focus-within {
+    border-color: transparent;
+}
+:where(.visual-refresh) .channelTextArea__74017 {
+    border: 0px;
+    box-shadow: none !important;
+}
+/*Mention Color*/
+.mentioned__5126c {
+    background-color: rgb(var(--numerical-main), 0.3) !important;
+}
+/*VC Area border*/
+.visual-refresh .container_e131a9 {
+    border-bottom-color: transparent;
+}
+/*Channel Top border*/
+.visual-refresh.theme-midnight .content_f75fb0, .visual-refresh.theme-midnight .subtitleContainer_f75fb0 {
+    border-left: transparent;
+}
+.theme-midnight .container__9293f {
+    border-bottom: transparent;
+}
+/*Friends page Activity*/
+:is(.visual-refresh,html:not(.visual-refresh)) .outer_bf1984, :is(.visual-refresh,html:not(.visual-refresh)) .outer_bf1984:is(.interactive_bf1984:hover,.active_bf1984) {
+    background-color: transparent;
+}
+/*Discord icon separator*/
+.visual-refresh .guildSeparator__252b6 {
+    display: none;
+}
+/*Friends Search bar*/
+.visual-refresh .searchBar__35e86 {
+    border-bottom: transparent;
+}
+/*Friendlist left border*/
+.visual-refresh.theme-midnight .tabBody__133bf {
+    border-left: transparent;
+}
+/*Friendlist item border*/
+.peopleListItem_cc6179 {
+    border-top: transparent;
+    border-bottom: transparent;
+}
+/*Upload shading*/
+.visual-refresh .channelAttachmentArea_b77158 {
+    background-color: transparent;
+}
+/*Activity shading*/
+:where(.visual-refresh) .channelTextArea__74017 {
+    border: 0px;
+}
+:is(.visual-refresh,html:not(.visual-refresh)) .container__0f2e8 {
+    background: transparent;
+    border-width: 0px;
+}
+/*reply bar*/
+.visual-refresh .stackedBars__74017:not(:last-child) {
+    border-bottom: 0px;
+}
+.visual-refresh .stackedBars__74017 {
+    background: transparent;
+}
+.separator__841c8 {
+    display: none;
+}
