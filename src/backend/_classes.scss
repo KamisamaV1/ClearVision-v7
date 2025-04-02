@@ -303,13 +303,21 @@ $classes: (
     'baseContent': 'content_c48ade',
     // same line as base
     'page': 'page_c48ade',
-    'loadingSquare': 'wanderingCubes__0b5bb',
-    'loadingSquareItem': 'item__0b5bb',
     'pictureInPicture': 'pictureInPicture__6341f',
     'pictureInPictureWindow': 'pictureInPictureWindow__6341f',
     'anchorLink': 'anchor_edefb8',
     'anchorLinkUnderlineOnHover': 'anchorUnderlineOnHover_edefb8',
     'desaturate': 'desaturate_c7819f',
+
+    'wanderingCubes': 'wanderingCubes__0b5bb',
+    'wanderingCubesItem': 'item__0b5bb',
+    'spinner': 'spinner__0b5bb',
+    'spinnerCircle': 'spinningCircle__0b5bb',
+    'spinnerCircleInner': 'spinningCircleInner__0b5bb',
+    'spinnerCirclePath': 'path__0b5bb',
+    'spinnerCirclePath3': 'path3__0b5bb',
+    'spinnerPulsingEllipsisPopout': 'spinner_e90879',
+    'spinnerPulsingEllipsis': 'pulsingEllipsis__0b5bb',
 
     // has a filter relating to the saturation factor variable
     'loader': 'loader_c48ade',
@@ -367,6 +375,7 @@ $classes: (
         // A11y > "enable reduced motion" ticked
       ),
   ),
+
   'input': (
     'wrapper': 'inputWrapper__0f084',
     'input': 'input__0f084',
@@ -466,39 +475,39 @@ $classes: (
     ),
     'heading': (
       'sm': (
-        'normal': 'heading-sm\/normal_f9d828' 'heading-sm\/normal_a8af02' 'heading-sm\/normal__4ed1a' 'heading-sm\/normal_a39fe9' 'heading-sm\/normal_aabef9' 'heading-sm\/normal_c23051' 'heading-sm\/normal_cf4812' 'heading-sm\/normal_b717a1' 'heading-sm\/normal_df8943' 'heading-sm\/normal_ec1c2d',
-        'medium': 'heading-sm\/medium_f9d828' 'heading-sm\/medium_a8af02' 'heading-sm\/medium__4ed1a' 'heading-sm\/medium_a39fe9' 'heading-sm\/medium_aabef9' 'heading-sm\/medium_c23051' 'heading-sm\/medium_cf4812' 'heading-sm\/medium_b717a1' 'heading-sm\/medium_df8943' 'heading-sm\/medium_ec1c2d',
-        'semibold': 'heading-sm\/semibold_f9d828' 'heading-sm\/semibold_a8af02' 'heading-sm\/semibold__4ed1a' 'heading-sm\/semibold_a39fe9' 'heading-sm\/semibold_aabef9' 'heading-sm\/semibold_c23051' 'heading-sm\/semibold_cf4812' 'heading-sm\/semibold_b717a1' 'heading-sm\/semibold_df8943' 'heading-sm\/semibold_ec1c2d',
-        'bold': 'heading-sm\/bold_f9d828' 'heading-sm\/bold_a8af02' 'heading-sm\/bold__4ed1a' 'heading-sm\/bold_a39fe9' 'heading-sm\/bold_aabef9' 'heading-sm\/bold_c23051' 'heading-sm\/bold_cf4812' 'heading-sm\/bold_b717a1' 'heading-sm\/bold_df8943' 'heading-sm\/bold_ec1c2d',
-        'extrabold': 'heading-sm\/extrabold_f9d828' 'heading-sm\/extrabold_a8af02' 'heading-sm\/extrabold__4ed1a' 'heading-sm\/extrabold_a39fe9' 'heading-sm\/extrabold_aabef9' 'heading-sm\/extrabold_c23051' 'heading-sm\/extrabold_cf4812' 'heading-sm\/extrabold_b717a1' 'heading-sm\/extrabold_df8943' 'heading-sm\/extrabold_ec1c2d',
+        'normal': 'heading-sm\/normal_cf4812',
+        'medium': 'heading-sm\/medium_cf4812',
+        'semibold': 'heading-sm\/semibold_cf4812',
+        'bold': 'heading-sm\/bold_cf4812',
+        'extrabold': 'heading-sm\/extrabold_cf4812',
       ),
       'md': (
-        'normal': 'heading-md\/normal_f9d828' 'heading-md\/normal_a8af02' 'heading-md\/normal__4ed1a' 'heading-md\/normal_a39fe9' 'heading-md\/normal_aabef9' 'heading-md\/normal_c23051' 'heading-md\/normal_cf4812' 'heading-md\/normal_b717a1' 'heading-md\/normal_df8943' 'heading-md\/normal_ec1c2d',
-        'medium': 'heading-md\/medium_f9d828' 'heading-md\/medium_a8af02' 'heading-md\/medium__4ed1a' 'heading-md\/medium_a39fe9' 'heading-md\/medium_aabef9' 'heading-md\/medium_c23051' 'heading-md\/medium_cf4812' 'heading-md\/medium_b717a1' 'heading-md\/medium_df8943' 'heading-md\/medium_ec1c2d',
-        'semibold': 'heading-md\/semibold_f9d828' 'heading-md\/semibold_a8af02' 'heading-md\/semibold__4ed1a' 'heading-md\/semibold_a39fe9' 'heading-md\/semibold_aabef9' 'heading-md\/semibold_c23051' 'heading-md\/semibold_cf4812' 'heading-md\/semibold_b717a1' 'heading-md\/semibold_df8943' 'heading-md\/semibold_ec1c2d',
-        'bold': 'heading-md\/bold_f9d828' 'heading-md\/bold_a8af02' 'heading-md\/bold__4ed1a' 'heading-md\/bold_a39fe9' 'heading-md\/bold_aabef9' 'heading-md\/bold_c23051' 'heading-md\/bold_cf4812' 'heading-md\/bold_b717a1' 'heading-md\/bold_df8943' 'heading-md\/bold_ec1c2d',
-        'extrabold': 'heading-md\/extrabold_f9d828' 'heading-md\/extrabold_a8af02' 'heading-md\/extrabold__4ed1a' 'heading-md\/extrabold_a39fe9' 'heading-md\/extrabold_aabef9' 'heading-md\/extrabold_c23051' 'heading-md\/extrabold_cf4812' 'heading-md\/extrabold_b717a1' 'heading-md\/extrabold_df8943' 'heading-md\/extrabold_ec1c2d',
+        'normal': 'heading-md\/normal_cf4812',
+        'medium': 'heading-md\/medium_cf4812',
+        'semibold': 'heading-md\/semibold_cf4812',
+        'bold': 'heading-md\/bold_cf4812',
+        'extrabold': 'heading-md\/extrabold_cf4812',
       ),
       'lg': (
-        'normal': 'heading-lg\/normal_f9d828' 'heading-lg\/normal_a8af02' 'heading-lg\/normal__4ed1a' 'heading-lg\/normal_a39fe9' 'heading-lg\/normal_aabef9' 'heading-lg\/normal_c23051' 'heading-lg\/normal_cf4812' 'heading-lg\/normal_b717a1' 'heading-lg\/normal_df8943' 'heading-lg\/normal_ec1c2d',
-        'medium': 'heading-lg\/medium_f9d828' 'heading-lg\/medium_a8af02' 'heading-lg\/medium__4ed1a' 'heading-lg\/medium_a39fe9' 'heading-lg\/medium_aabef9' 'heading-lg\/medium_c23051' 'heading-lg\/medium_cf4812' 'heading-lg\/medium_b717a1' 'heading-lg\/medium_df8943' 'heading-lg\/medium_ec1c2d',
-        'semibold': 'heading-lg\/semibold_f9d828' 'heading-lg\/semibold_a8af02' 'heading-lg\/semibold__4ed1a' 'heading-lg\/semibold_a39fe9' 'heading-lg\/semibold_aabef9' 'heading-lg\/semibold_c23051' 'heading-lg\/semibold_cf4812' 'heading-lg\/semibold_b717a1' 'heading-lg\/semibold_df8943' 'heading-lg\/semibold_ec1c2d',
-        'bold': 'heading-lg\/bold_f9d828' 'heading-lg\/bold_a8af02' 'heading-lg\/bold__4ed1a' 'heading-lg\/bold_a39fe9' 'heading-lg\/bold_aabef9' 'heading-lg\/bold_c23051' 'heading-lg\/bold_cf4812' 'heading-lg\/bold_b717a1' 'heading-lg\/bold_df8943' 'heading-lg\/bold_ec1c2d',
-        'extrabold': 'heading-lg\/extrabold_f9d828' 'heading-lg\/extrabold_a8af02' 'heading-lg\/extrabold__4ed1a' 'heading-lg\/extrabold_a39fe9' 'heading-lg\/extrabold_aabef9' 'heading-lg\/extrabold_c23051' 'heading-lg\/extrabold_cf4812' 'heading-lg\/extrabold_b717a1' 'heading-lg\/extrabold_df8943' 'heading-lg\/extrabold_ec1c2d',
+        'normal': 'heading-lg\/normal_cf4812',
+        'medium': 'heading-lg\/medium_cf4812',
+        'semibold': 'heading-lg\/semibold_cf4812',
+        'bold': 'heading-lg\/bold_cf4812',
+        'extrabold': 'heading-lg\/extrabold_cf4812',
       ),
       'xl': (
-        'normal': 'heading-xl\/normal_f9d828' 'heading-xl\/normal_a8af02' 'heading-xl\/normal__4ed1a' 'heading-xl\/normal_a39fe9' 'heading-xl\/normal_aabef9' 'heading-xl\/normal_c23051' 'heading-xl\/normal_cf4812' 'heading-xl\/normal_b717a1' 'heading-xl\/normal_df8943' 'heading-xl\/normal_ec1c2d',
-        'medium': 'heading-xl\/medium_f9d828' 'heading-xl\/medium_a8af02' 'heading-xl\/medium__4ed1a' 'heading-xl\/medium_a39fe9' 'heading-xl\/medium_aabef9' 'heading-xl\/medium_c23051' 'heading-xl\/medium_cf4812' 'heading-xl\/medium_b717a1' 'heading-xl\/medium_df8943' 'heading-xl\/medium_ec1c2d',
-        'semibold': 'heading-xl\/semibold_f9d828' 'heading-xl\/semibold_a8af02' 'heading-xl\/semibold__4ed1a' 'heading-xl\/semibold_a39fe9' 'heading-xl\/semibold_aabef9' 'heading-xl\/semibold_c23051' 'heading-xl\/semibold_cf4812' 'heading-xl\/semibold_b717a1' 'heading-xl\/semibold_df8943' 'heading-xl\/semibold_ec1c2d',
-        'bold': 'heading-xl\/bold_f9d828' 'heading-xl\/bold_a8af02' 'heading-xl\/bold__4ed1a' 'heading-xl\/bold_a39fe9' 'heading-xl\/bold_aabef9' 'heading-xl\/bold_c23051' 'heading-xl\/bold_cf4812' 'heading-xl\/bold_b717a1' 'heading-xl\/bold_df8943' 'heading-xl\/bold_ec1c2d',
-        'extrabold': 'heading-xl\/extrabold_f9d828' 'heading-xl\/extrabold_a8af02' 'heading-xl\/extrabold__4ed1a' 'heading-xl\/extrabold_a39fe9' 'heading-xl\/extrabold_aabef9' 'heading-xl\/extrabold_c23051' 'heading-xl\/extrabold_cf4812' 'heading-xl\/extrabold_b717a1' 'heading-xl\/extrabold_df8943' 'heading-xl\/extrabold_ec1c2d',
+        'normal': 'heading-xl\/normal_cf4812',
+        'medium': 'heading-xl\/medium_cf4812',
+        'semibold': 'heading-xl\/semibold_cf4812',
+        'bold': 'heading-xl\/bold_cf4812',
+        'extrabold': 'heading-xl\/extrabold_cf4812',
       ),
       'xxl': (
-        'normal': 'heading-xxl\/normal_f9d828' 'heading-xxl\/normal_a8af02' 'heading-xxl\/normal__4ed1a' 'heading-xxl\/normal_a39fe9' 'heading-xxl\/normal_aabef9' 'heading-xxl\/normal_c23051' 'heading-xxl\/normal_cf4812' 'heading-xxl\/normal_b717a1' 'heading-xxl\/normal_df8943' 'heading-xxl\/normal_ec1c2d',
-        'medium': 'heading-xxl\/medium_f9d828' 'heading-xxl\/medium_a8af02' 'heading-xxl\/medium__4ed1a' 'heading-xxl\/medium_a39fe9' 'heading-xxl\/medium_aabef9' 'heading-xxl\/medium_c23051' 'heading-xxl\/medium_cf4812' 'heading-xxl\/medium_b717a1' 'heading-xxl\/medium_df8943' 'heading-xxl\/medium_ec1c2d',
-        'semibold': 'heading-xxl\/semibold_f9d828' 'heading-xxl\/semibold_a8af02' 'heading-xxl\/semibold__4ed1a' 'heading-xxl\/semibold_a39fe9' 'heading-xxl\/semibold_aabef9' 'heading-xxl\/semibold_c23051' 'heading-xxl\/semibold_cf4812' 'heading-xxl\/semibold_b717a1' 'heading-xxl\/semibold_df8943' 'heading-xxl\/semibold_ec1c2d',
-        'bold': 'heading-xxl\/bold_f9d828' 'heading-xxl\/bold_a8af02' 'heading-xxl\/bold__4ed1a' 'heading-xxl\/bold_a39fe9' 'heading-xxl\/bold_aabef9' 'heading-xxl\/bold_c23051' 'heading-xxl\/bold_cf4812' 'heading-xxl\/bold_b717a1' 'heading-xxl\/bold_df8943' 'heading-xxl\/bold_ec1c2d',
-        'extrabold': 'heading-xxl\/extrabold_f9d828' 'heading-xxl\/extrabold_a8af02' 'heading-xxl\/extrabold__4ed1a' 'heading-xxl\/extrabold_a39fe9' 'heading-xxl\/extrabold_aabef9' 'heading-xxl\/extrabold_c23051' 'heading-xxl\/extrabold_cf4812' 'heading-xxl\/extrabold_b717a1' 'heading-xxl\/extrabold_df8943' 'heading-xxl\/extrabold_ec1c2d',
+        'normal': 'heading-xxl\/normal_cf4812',
+        'medium': 'heading-xxl\/medium_cf4812',
+        'semibold': 'heading-xxl\/semibold_cf4812',
+        'bold': 'heading-xxl\/bold_cf4812',
+        'extrabold': 'heading-xxl\/extrabold_cf4812',
       ),
       'deprecated12': (
         'normal': 'heading-deprecated-12\/normal_f9d828' 'heading-deprecated-12\/normal_a8af02' 'heading-deprecated-12\/normal__4ed1a' 'heading-deprecated-12\/normal_a39fe9' 'heading-deprecated-12\/normal_aabef9' 'heading-deprecated-12\/normal_c23051' 'heading-deprecated-12\/normal_cf4812' 'heading-deprecated-12\/normal_b717a1' 'heading-deprecated-12\/normal_df8943' 'heading-deprecated-12\/normal_ec1c2d',
@@ -527,16 +536,16 @@ $classes: (
     ),
     'text': (
       'xxs': (
-        'normal': 'text-xxs\/normal_f9d828' 'text-xxs\/normal_a8af02' 'text-xxs\/normal__4ed1a' 'text-xxs\/normal_a39fe9' 'text-xxs\/normal_aabef9' 'text-xxs\/normal_c23051' 'text-xxs\/normal_cf4812' 'text-xxs\/normal_b717a1' 'text-xxs\/normal_df8943' 'text-xxs\/normal_ec1c2d',
-        'medium': 'text-xxs\/medium_f9d828' 'text-xxs\/medium_a8af02' 'text-xxs\/medium__4ed1a' 'text-xxs\/medium_a39fe9' 'text-xxs\/medium_aabef9' 'text-xxs\/medium_c23051' 'text-xxs\/medium_cf4812' 'text-xxs\/medium_b717a1' 'text-xxs\/medium_df8943' 'text-xxs\/medium_ec1c2d',
-        'semibold': 'text-xxs\/semibold_f9d828' 'text-xxs\/semibold_a8af02' 'text-xxs\/semibold__4ed1a' 'text-xxs\/semibold_a39fe9' 'text-xxs\/semibold_aabef9' 'text-xxs\/semibold_c23051' 'text-xxs\/semibold_cf4812' 'text-xxs\/semibold_b717a1' 'text-xxs\/semibold_df8943' 'text-xxs\/semibold_ec1c2d',
-        'bold': 'text-xxs\/bold_f9d828' 'text-xxs\/bold_a8af02' 'text-xxs\/bold__4ed1a' 'text-xxs\/bold_a39fe9' 'text-xxs\/bold_aabef9' 'text-xxs\/bold_c23051' 'text-xxs\/bold_cf4812' 'text-xxs\/bold_b717a1' 'text-xxs\/bold_df8943' 'text-xxs\/bold_ec1c2d',
+        'normal': 'text-xxs\/normal_cf4812',
+        'medium': 'text-xxs\/medium_cf4812',
+        'semibold': 'text-xxs\/semibold_cf4812',
+        'bold':'text-xxs\/bold_cf4812',
       ),
       'xs': (
-        'normal': 'text-xs\/normal_f9d828' 'text-xs\/normal_a8af02' 'text-xs\/normal__4ed1a' 'text-xs\/normal_a39fe9' 'text-xs\/normal_aabef9' 'text-xs\/normal_c23051' 'text-xs\/normal_cf4812' 'text-xs\/normal_b717a1' 'text-xs\/normal_df8943' 'text-xs\/normal_ec1c2d',
-        'medium': 'text-xs\/medium_f9d828' 'text-xs\/medium_a8af02' 'text-xs\/medium__4ed1a' 'text-xs\/medium_a39fe9' 'text-xs\/medium_aabef9' 'text-xs\/medium_c23051' 'text-xs\/medium_cf4812' 'text-xs\/medium_b717a1' 'text-xs\/medium_df8943' 'text-xs\/medium_ec1c2d',
-        'semibold': 'text-xs\/semibold_f9d828' 'text-xs\/semibold_a8af02' 'text-xs\/semibold__4ed1a' 'text-xs\/semibold_a39fe9' 'text-xs\/semibold_aabef9' 'text-xs\/semibold_c23051' 'text-xs\/semibold_cf4812' 'text-xs\/semibold_b717a1' 'text-xs\/semibold_df8943' 'text-xs\/semibold_ec1c2d',
-        'bold': 'text-xs\/bold_f9d828' 'text-xs\/bold_a8af02' 'text-xs\/bold__4ed1a' 'text-xs\/bold_a39fe9' 'text-xs\/bold_aabef9' 'text-xs\/bold_c23051' 'text-xs\/bold_cf4812' 'text-xs\/bold_b717a1' 'text-xs\/bold_df8943' 'text-xs\/bold_ec1c2d',
+        'normal': 'text-xs\/normal_cf4812',
+        'medium': 'text-xs\/medium_cf4812',
+        'semibold': 'text-xs\/semibold_cf4812',
+        'bold':'text-xs\/bold_cf4812',
       ),
       'sm': (
         'normal': 'text-sm\/normal_f9d828' 'text-sm\/normal_a8af02' 'text-sm\/normal__4ed1a' 'text-sm\/normal_a39fe9' 'text-sm\/normal_aabef9' 'text-sm\/normal_c23051' 'text-sm\/normal_cf4812' 'text-sm\/normal_b717a1' 'text-sm\/normal_df8943' 'text-sm\/normal_ec1c2d',
@@ -1109,13 +1118,13 @@ $classes: (
     // usually used for pinned message, welcome message and kicked from gc stuff
     'chatHeaderUsername': 'header_c19a55',
     'chatHeaderText': 'headerText_c19a55',
-    'chatTimestamp': 'timestamp_c19a55',
-    'chatTimestampInline': 'timestampInline_c19a55',
     'chatEdited': 'edited_c19a55',
     'chatUsername': 'username_c19a55',
     'chatHeaderClickable': 'clickable_c19a55',
     'chatUsernameTimedOut': 'communicationDisabled_c19a55',
     'zalgoBlocker': 'zalgo_c19a55',
+    'timestamp': 'timestamp_c19a55',
+    'timestampInline': 'timestampInline_c19a55',
     'messageContent': 'messageContent_c19a55',
 
     // in same line as chat_$suffix
@@ -1171,6 +1180,9 @@ $classes: (
     'automodShield': 'shieldIcon_b7ab2c',
 
     'layerWrapper': 'chatLayerWrapper__01ae2',
+
+    'operations': 'operations_bab751',
+    // editing bottom text
 
     'reactions': (
       'reactions': 'reactions__23977',
@@ -1552,7 +1564,7 @@ $classes: (
     'iconWrapper': 'iconWrapper__54b20',
     'icon': 'icon__54b20',
     'header': 'chatHeaderBar_a5700d',
-    // usually contains "this thread is/was archived..."
+    // usually contains "this thread is/was archived.../locked"
     'subtitle': 'subtitle__54b20',
 
     // usually contains "started by..."
@@ -1890,6 +1902,16 @@ $classes: (
       'tileContent': 'container__956c6',
       'tileDescription': 'rewardDescriptionContainer__956c6',
       'tileQuestName': 'questName__956c6',
+
+      // video quest modal
+      'video': (
+        'root': 'modalRoot_de2fa0',
+        'background': 'modalBg_de2fa0',
+        'body': 'modalBody_de2fa0',
+        'content': 'modalContent_de2fa0',
+        'header': 'contentHeader_de2fa0',
+        'footer': 'contentFooter_de2fa0',
+      ),
     ),
   ),
   'embeds': (
@@ -2244,11 +2266,12 @@ $classes: (
 
     'shopWhatsNew': 'whatsNewSectionBackground_c880e8',
 
-    'loadingSkeleton': 'skeleton__72fa0',
+    'loadingCardSkeleton': 'skeleton__72fa0',
     'loadingBanner': 'bannerBody__72fa0',
-    'loadingCard': 'cardBody__72fa0',
-
+    'loadingCardBody': 'cardBody__72fa0',
     'loadingCardContent': 'cardAvatar__72fa0' 'cardTitle__72fa0' 'cardDescription__72fa0' 'cardSummary__72fa0',
+    'loadingFeaturedSkeleton': 'skeleton__08415',
+    'loadingFeaturedBody': 'skeletonBody__08415',
 
     'card': 'shopCard_c3d04b',
     'cardNitro': 'shopCard_b37971',
@@ -2518,6 +2541,12 @@ $classes: (
     'placeholderAvatar': 'placeholderAvatar__27cc6',
     'placeholderUsername': 'placeholderUsername__27cc6',
     'placeholderUsernameMultiple': 'mulitplePlaceholderUsername__27cc6',
+
+    // click on user with quest badge
+    'quest': (
+      'container': 'container__4413f',
+      'button': 'ctaButton__4413f',
+    ),
   ),
   // this area doesn't show up if you don't have any pending requests.
   // it can be accessed by going to https://discord.com/message-requests
@@ -3015,8 +3044,10 @@ $classes: (
             'voiceChannelsToggleIcon': 'voiceChannelsToggleIcon__29444',
           ),
         // Text channels, threads, forums, voice channels, etc.
-        'channel': (
+        'channels': (
             // Used for individual channels (like #general)
+            'newChannelBadge': 'newChannel__599fa',
+            // browse channels new channel badge
             'dragBefore': 'containerDragBefore_c69b6d',
             // drag either channel or category header
             'dragAfter': 'containerDragAfter_c69b6d',
@@ -3204,208 +3235,220 @@ $classes: (
     // Panels include your avatar, username, mic, headphones and settings icons
     // as well as voice related stuff
     'panel': (
-        'panels': 'panels_c48ade',
+      'panels': 'panels_c48ade',
 
-        // Non-voice stuff
-        'container': 'container__37e49',
-        'avatarWrapper': 'avatarWrapper__37e49',
-        // contains avatar, username, nickname and status
-        'avatar': 'avatar__37e49',
-        'nameTag': 'nameTag__37e49',
-        'canCopy': 'canCopy__37e49',
-        'titleContainer': 'panelTitleContainer__37e49',
-        // holds nickname
-        'username': 'title_b6c092',
-        // username, also used when in activity and streaming
-        'subtextContainer': 'panelSubtextContainer__37e49',
-        // holds username and status
-        'statusSubtext': 'subtext__339d0',
-        // holds username and status
-        'statusHoverRoll': 'hoverRoll__0263c',
-        'statusForceHover': 'forceHover__0263c',
-        'statusHovered': 'hovered__0263c',
-        // holds username
-        'statusDefault': 'default__0263c',
-        // holds status when not invisible, otherwise "invisible"
-        'customStatus': 'customStatus__37e49',
-        // when not invisible
-        'customStatusEmoji': 'emoji__37e49',
+      // Non-voice stuff
+      'container': 'container__37e49',
+      'avatarWrapper': 'avatarWrapper__37e49',
+      // contains avatar, username, nickname and status
+      'avatar': 'avatar__37e49',
+      'nameTag': 'nameTag__37e49',
+      'canCopy': 'canCopy__37e49',
+      'titleContainer': 'panelTitleContainer__37e49',
+      // holds nickname
+      'username': 'title_b6c092',
+      // username, also used when in activity and streaming
+      'subtextContainer': 'panelSubtextContainer__37e49',
+      // holds username and status
+      'statusSubtext': 'subtext__339d0',
+      // holds username and status
+      'statusHoverRoll': 'hoverRoll__0263c',
+      'statusForceHover': 'forceHover__0263c',
+      'statusHovered': 'hovered__0263c',
+      // holds username
+      'statusDefault': 'default__0263c',
+      // holds status when not invisible, otherwise "invisible"
+      'customStatus': 'customStatus__37e49',
+      // when not invisible
+      'customStatusEmoji': 'emoji__37e49',
 
-        // when you've got an emoji in status
-        // Voice stuff
-        'voice': (
-            'wrapper': 'wrapper_e131a9',
-            'container': 'container_e131a9',
-            // has border bottom
-            'connection': 'connection_e131a9',
-            // contains the name of the channel you're connected to, noise suppression and disconnect buttons
-            'inner': 'inner_e131a9',
-            // contains name of channel you're connected to
-            // Within "inner".
-            'rtcConnection': (
-                'statusWrapper': 'rtcConnectionStatusWrapper__06d62',
-                // contains the "Voice Connected" thing and an icon
-                'status': 'rtcConnectionStatus__06d62',
+      // when you've got an emoji in status
+      // Voice stuff
+      'voice': (
+          'wrapper': 'wrapper_e131a9',
+          'container': 'container_e131a9',
+          // has border bottom
+          'connection': 'connection_e131a9',
+          // contains the name of the channel you're connected to, noise suppression and disconnect buttons
+          'inner': 'inner_e131a9',
+          // contains name of channel you're connected to
+          // Within "inner".
+          'rtcConnection': (
+            'statusWrapper': 'rtcConnectionStatusWrapper__06d62',
+            // contains the "Voice Connected" thing and an icon
+            'status': 'rtcConnectionStatus__06d62',
 
-                // within labelWrapper
-                'label': 'rtcConnectionStatusLabel__06d62',
-                'connected': 'rtcConnectionStatusConnected__06d62',
-                'connecting': 'rtcConnectionStatusConnecting__06d62',
-                'error': 'rtcConnectionStatusError__06d62',
+            // within labelWrapper
+            'label': 'rtcConnectionStatusLabel__06d62',
+            'connected': 'rtcConnectionStatusConnected__06d62',
+            'connecting': 'rtcConnectionStatusConnecting__06d62',
+            'error': 'rtcConnectionStatusError__06d62',
 
-                // likely how good the connection is; these apply color to pingForeground
-                'fine': 'rtcConnectionQualityFine__06d62',
-                // color: var(--text-positive);
-                'average': 'rtcConnectionQualityAverage__06d62',
-                // pingForeground:not(:last-child) color: var(--text-warning);
-                'bad': 'rtcConnectionQualityBad__06d62',
-                // pingForeground:first-child color: var(--status-danger);
-              ),
-            'ping': 'ping__06d62',
-            // also within the "inner" element, this is an svg
-            'labelWrapper': 'labelWrapper__06d62',
-            // also within the "inner" element, contains a button. contents of button are a hover roll thing.
-            // sibling to rtcConnection status is <a class href="">. this contains the channel name.
-            'channel': 'channel_e131a9',
-
-            // This contains the "noise suppression" and "disconnect" buttons.
-            'voiceButtonsContainer': 'voiceButtonsContainer_e131a9',
-
-            // There's a row of buttons in this panel. These are not to be confused with the "noise suppression" and "disconnect" buttons.
-            'actionButtons': (
-                'actionButtons': 'actionButtons_e131a9',
-                'button': 'button_e131a9',
-                'color': 'buttonColor_e131a9',
-                'active': 'buttonActive_e131a9',
-                'fauxDisabled': 'fauxDisabled_e131a9',
-                'disabled': 'disabled_e131a9',
-                'contents': 'buttonContents_e131a9',
-                // shared with #{c(button contents)}
-                'icon': 'buttonIcon_e131a9',
-
-                // shared with lottieIcon
-                // Determining which button is which:
-                // These will go from parent "buttons" class to where the first svg is. The `button` element contains aria-label with the relevant string for the language.
-                //
-                // No Camera Connected - actionButtons > button.color.fauxDisabled[aria-expanded=false][iconcolor=currentColor] > contents > icon > svg
-                // Enable Camera - actionButtons > button.color[aria-expanded=false][iconcolor=currentColor] > contents > icon > svg
-                // Disable Camera - actionButtons > button.color.active[aria-expanded=true][iconcolor=currentColor] > contents > icon > svg
-                // Share Screen - actionButtons > button.color > contents > icon > svg
-                // Stop Sharing Screen - actionButtons > button.color.active > contents > icon > svg
-                // Start Activity - actionButtons > button.color > contents > icon > svg
-                // Stop Activity - actionButtons > button.color.active > contents > icon > svg
-                // Open Soundboard - actionButtons > <div> > button.color[aria-expanded=false] > contents > icon > svg
-                // Opened Soundboard - actionButtons > <div> > button.color.active[aria-expanded=true] > contents > icon > svg
-                 // Disabled Soundboard (deafened) - actionButtons > <div> > <span>.button.color.#{c(button disabledButtonWrapper)} > button.color.disabled > contents > icon > svg,,
-              ),
-
-            // other classes that idk too much about
-            'hotspot': 'hotspot_e131a9',
-            'customStatusContainer': 'customStatusContainer_e131a9',
-            'noiseCancellationPopout': 'noiseCancellationPopout_e131a9',
-            // click the noise suppression button
-            'noiseCancellationTooltip': 'noiseCancellationTooltip_e131a9',
-            // hover over the noise suppression button
-            'krispLogo': 'krispLogo_e131a9',
-            // in NC popout; parent is clickable to https://api.krisp.ai/v2/resource/link/discord
-            'krispLink': 'krispLink_e131a9',
-            // in NC popout; clickable to a support article from discord
-            'micTestButton': 'micTestButton_e131a9',
-            // in NC popout
-            'beta': 'beta_e131a9',
-            'voiceUsers': 'voiceUsers_e131a9',
-            'withText': 'withText_e131a9',
-            // relates to buttons
-            'voicePanelIntroductionWrapper': 'voicePanelIntroductionWrapper_e131a9',
-            'voicePanelIntroductionHeader': 'voicePanelIntroductionHeader_e131a9',
-            'voicePanelIntroductionText': 'voicePanelIntroductionText_e131a9',
-            'voicePanelIntroductionButton': 'voicePanelIntroductionButton_e131a9',
-            'viewAsRolesWarning': 'viewAsRolesWarning_e131a9',
-            'viewAsRolesWarningText': 'viewAsRolesWarningText_e131a9',
-            // appears as child of viewAsRolesWarning
-            'viewAsRolesWarningButton': 'viewAsRolesWarningButton_e131a9',
-            // appears as child of viewAsRolesWarning
+            // likely how good the connection is; these apply color to pingForeground
+            'fine': 'rtcConnectionQualityFine__06d62',
+            // color: var(--text-positive);
+            'average': 'rtcConnectionQualityAverage__06d62',
+            // pingForeground:not(:last-child) color: var(--text-warning);
+            'bad': 'rtcConnectionQualityBad__06d62',
+            // pingForeground:first-child color: var(--status-danger);
           ),
+          'ping': 'ping__06d62',
+          // also within the "inner" element, this is an svg
+          'labelWrapper': 'labelWrapper__06d62',
+          // also within the "inner" element, contains a button. contents of button are a hover roll thing.
+          // sibling to rtcConnection status is <a class href="">. this contains the channel name.
+          'channel': 'channel_e131a9',
 
-        // Appears when streaming something or when you're in an activity
-        'activity': (
-            'panel': 'panel__5dec7',
-            // has background with theme dark/light
-            'activityPanel': 'activityPanel_c48ade',
-            // has border bottom
-            'body': 'body__5dec7',
-            'gameWrapper': 'gameWrapper__5dec7',
-            // when streaming these show up
-            'streamingWrapper': 'wrapper_a629d4',
-            // child svg__2338f
-            'streamingIcon': 'icon_a629d4',
-            // inline style for background color
-            'streamingBadge': 'badge_a629d4',
-            // old camera representation
-            // when in activity these show up
-            'gameIcon': 'gameIcon__5dec7',
-            'activityName': 'activityName__5dec7',
-            // also uses statusSubtext for elapsed time
-            'info': 'info__5dec7',
+          // This contains the "noise suppression" and "disconnect" buttons.
+          'voiceButtonsContainer': 'voiceButtonsContainer_e131a9',
 
-            'actions': 'actions__4cd01',
-            'panelButtonContainer': 'panelButtonContainer__4cd01',
-            // buttons use #{c(sidebar server panel buttons button)}.
-            // other classes that i don't know where they're used
-            'dropsBadgeWrapper': 'dropsBadgeWrapper__5dec7',
-            // likely relates to quest stuff
-            'dropsBadge': 'dropsBadge__5dec7',
-            'liveIndicator': 'liveIndicator__5dec7',
-            // appears as child of gameWrapper
-            'sparkleContainer': 'sparkleContainer__5dec7',
-            'sparkles': 'sparkles__5dec7',
-            'infoWithDrops': 'infoWithDrops__5dec7',
-            'channel': 'channel__5dec7',
-            'perksDemoContainer': 'perksDemoContainer__5dec7',
-            'perksDemoText': 'perksDemoText__5dec7',
-          ),
+          // There's a row of buttons in this panel. These are not to be confused with the "noise suppression" and "disconnect" buttons.
+          'actionButtons': (
+            'actionButtons': 'actionButtons_e131a9',
+            'button': 'button_e131a9',
+            'color': 'buttonColor_e131a9',
+            'active': 'buttonActive_e131a9',
+            'fauxDisabled': 'fauxDisabled_e131a9',
+            'disabled': 'disabled_e131a9',
+            'contents': 'buttonContents_e131a9',
+            // shared with #{c(button contents)}
+            'icon': 'buttonIcon_e131a9',
 
-        // Buttons such as "mute", "deafen" and "settings".
-        'buttons': (
-            'buttons': 'buttons__37e49',
-            'micButtonParent': 'micButtonParent__37e49',
-            // why is this separate ffs
-            'button': 'button__67645',
-            // the actual button
-            'enabled': 'enabled__67645',
-            // you can interact with it
-            'disabled': 'disabled__67645',
-
-            // you cannot interact with it
-            'redIcon': 'redIcon__37e49',
-            // used when server deafened, applied to #{c(button contents)}
-            'lottieIcon': 'lottieIcon__5eb9b',
-
+            // shared with lottieIcon
             // Determining which button is which:
             // These will go from parent "buttons" class to where the first svg is. The `button` element contains aria-label with the relevant string for the language.
             //
-            // Regular Buttons
-            // Unmuted - buttons > micButtonParent > button[aria-checked=false] > buttonContents > lottieIcon[style^="--__lottieIconColor: currentColor;"] > svg
-            // Muted - buttons > micButtonParent > button[aria-checked=true] > buttonContents > lottieIcon[style^="--__lottieIconColor: var(--status-danger);"] > svg
-            // Server Muted (or cannot speak in stage) - buttons > micButtonParent > button[aria-checked=true] > buttonContents > svg
-            // Undeafened - buttons > button[aria-checked=false] > buttonContents > lottieIcon[style^="--__lottieIconColor: currentColor;"] > svg
-            // Deafened - buttons > button[aria-checked=true] > buttonContents > lottieIcon[style^="--__lottieIconColor: var(--status-danger);"] > svg
-            // Server Deafened - buttons > button[aria-checked=true] > buttonContents.redIcon > svg
-            // Settings - buttons > button > buttonContents > lottieIcon > svg
-            //
-            // Voice Buttons
-            // Noise Suppression (always) - voiceButtonsContainer > button > buttonContents > lottieIcon > svg
-            // Mute Music (stage) - voiceButtonsContainer > button > buttonContents > svg
-            // Unmute Music (stage) - voiceButtonsContainer > button > buttonContents > svg
-            // Disconnect (call) / Disconnect Quietly (stage) - voiceButtonsContainer > button > buttonContents > lottieIcon > svg
-            // Stop Streaming - panelButtonContainer > button > buttonContents > svg
-            //
-             // There is no "stop watching" button in the panel.,,
+            // No Camera Connected - actionButtons > button.color.fauxDisabled[aria-expanded=false][iconcolor=currentColor] > contents > icon > svg
+            // Enable Camera - actionButtons > button.color[aria-expanded=false][iconcolor=currentColor] > contents > icon > svg
+            // Disable Camera - actionButtons > button.color.active[aria-expanded=true][iconcolor=currentColor] > contents > icon > svg
+            // Share Screen - actionButtons > button.color > contents > icon > svg
+            // Stop Sharing Screen - actionButtons > button.color.active > contents > icon > svg
+            // Start Activity - actionButtons > button.color > contents > icon > svg
+            // Stop Activity - actionButtons > button.color.active > contents > icon > svg
+            // Open Soundboard - actionButtons > <div> > button.color[aria-expanded=false] > contents > icon > svg
+            // Opened Soundboard - actionButtons > <div> > button.color.active[aria-expanded=true] > contents > icon > svg
+              // Disabled Soundboard (deafened) - actionButtons > <div> > <span>.button.color.#{c(button disabledButtonWrapper)} > button.color.disabled > contents > icon > svg,,
           ),
 
-        // Dunno where these go
-        'activityActions': 'actions_bf1a22',
+        // other classes that idk too much about
+        'hotspot': 'hotspot_e131a9',
+        'customStatusContainer': 'customStatusContainer_e131a9',
+        'noiseCancellationPopout': 'noiseCancellationPopout_e131a9',
+        // click the noise suppression button
+        'noiseCancellationTooltip': 'noiseCancellationTooltip_e131a9',
+        // hover over the noise suppression button
+        'krispLogo': 'krispLogo_e131a9',
+        // in NC popout; parent is clickable to https://api.krisp.ai/v2/resource/link/discord
+        'krispLink': 'krispLink_e131a9',
+        // in NC popout; clickable to a support article from discord
+        'micTestButton': 'micTestButton_e131a9',
+        // in NC popout
+        'beta': 'beta_e131a9',
+        'voiceUsers': 'voiceUsers_e131a9',
+        'withText': 'withText_e131a9',
+        // relates to buttons
+        'voicePanelIntroductionWrapper': 'voicePanelIntroductionWrapper_e131a9',
+        'voicePanelIntroductionHeader': 'voicePanelIntroductionHeader_e131a9',
+        'voicePanelIntroductionText': 'voicePanelIntroductionText_e131a9',
+        'voicePanelIntroductionButton': 'voicePanelIntroductionButton_e131a9',
+        'viewAsRolesWarning': 'viewAsRolesWarning_e131a9',
+        'viewAsRolesWarningText': 'viewAsRolesWarningText_e131a9',
+        // appears as child of viewAsRolesWarning
+        'viewAsRolesWarningButton': 'viewAsRolesWarningButton_e131a9',
+        // appears as child of viewAsRolesWarning
       ),
+
+      // Appears when streaming something or when you're in an activity
+      'activity': (
+        'panel': 'panel__5dec7',
+        // has background with theme dark/light
+        'activityPanel': 'activityPanel_c48ade',
+        // has border bottom
+        'body': 'body__5dec7',
+        'gameWrapper': 'gameWrapper__5dec7',
+        // when streaming these show up
+        'streamingWrapper': 'wrapper_a629d4',
+        // child svg__2338f
+        'streamingIcon': 'icon_a629d4',
+        // inline style for background color
+        'streamingBadge': 'badge_a629d4',
+        // old camera representation
+        // when in activity these show up
+        'gameIcon': 'gameIcon__5dec7',
+        'activityName': 'activityName__5dec7',
+        // also uses statusSubtext for elapsed time
+        'info': 'info__5dec7',
+
+        'actions': 'actions__4cd01',
+        'panelButtonContainer': 'panelButtonContainer__4cd01',
+        // buttons use #{c(sidebar server panel buttons button)}.
+        // other classes that i don't know where they're used
+        'dropsBadgeWrapper': 'dropsBadgeWrapper__5dec7',
+        // likely relates to quest stuff
+        'dropsBadge': 'dropsBadge__5dec7',
+        'liveIndicator': 'liveIndicator__5dec7',
+        // appears as child of gameWrapper
+        'sparkleContainer': 'sparkleContainer__5dec7',
+        'sparkles': 'sparkles__5dec7',
+        'infoWithDrops': 'infoWithDrops__5dec7',
+        'channel': 'channel__5dec7',
+        'perksDemoContainer': 'perksDemoContainer__5dec7',
+        'perksDemoText': 'perksDemoText__5dec7',
+      ),
+
+      // Buttons such as "mute", "deafen" and "settings".
+      'buttons': (
+        'buttons': 'buttons__37e49',
+        'micButtonParent': 'micButtonParent__37e49',
+        // why is this separate ffs
+        'button': 'button__67645',
+        // the actual button
+        'enabled': 'enabled__67645',
+        // you can interact with it
+        'disabled': 'disabled__67645',
+
+        // you cannot interact with it
+        'redIcon': 'redIcon__37e49',
+        // used when server deafened, applied to #{c(button contents)}
+        'lottieIcon': 'lottieIcon__5eb9b',
+
+        // Determining which button is which:
+        // These will go from parent "buttons" class to where the first svg is. The `button` element contains aria-label with the relevant string for the language.
+        //
+        // Regular Buttons
+        // Unmuted - buttons > micButtonParent > button[aria-checked=false] > buttonContents > lottieIcon[style^="--__lottieIconColor: currentColor;"] > svg
+        // Muted - buttons > micButtonParent > button[aria-checked=true] > buttonContents > lottieIcon[style^="--__lottieIconColor: var(--status-danger);"] > svg
+        // Server Muted (or cannot speak in stage) - buttons > micButtonParent > button[aria-checked=true] > buttonContents > svg
+        // Undeafened - buttons > button[aria-checked=false] > buttonContents > lottieIcon[style^="--__lottieIconColor: currentColor;"] > svg
+        // Deafened - buttons > button[aria-checked=true] > buttonContents > lottieIcon[style^="--__lottieIconColor: var(--status-danger);"] > svg
+        // Server Deafened - buttons > button[aria-checked=true] > buttonContents.redIcon > svg
+        // Settings - buttons > button > buttonContents > lottieIcon > svg
+        //
+        // Voice Buttons
+        // Noise Suppression (always) - voiceButtonsContainer > button > buttonContents > lottieIcon > svg
+        // Mute Music (stage) - voiceButtonsContainer > button > buttonContents > svg
+        // Unmute Music (stage) - voiceButtonsContainer > button > buttonContents > svg
+        // Disconnect (call) / Disconnect Quietly (stage) - voiceButtonsContainer > button > buttonContents > lottieIcon > svg
+        // Stop Streaming - panelButtonContainer > button > buttonContents > svg
+        //
+          // There is no "stop watching" button in the panel.,,
+      ),
+
+      'quest': (          
+        'wrapper': 'wrapper__0d616',
+        'contentWrapper': 'contentWrapper__0d616',
+        'contentWrapperAccepted': 'contentWrapperAccepted__0d616',
+        'contentWrapperExpanded': 'contentWrapperExpanded__0d616',
+        'contentInteractable': 'contentInteractable__636a2',
+        'postEnrollmentBackground': 'postEnrollmentBackground__636a2',
+        'postEnrollmentCollapsed': 'postEnrollmentBackgroundCollapsed__636a2',
+        'postEnrollmentExpanded': 'postEnrollmentBackgroundExpanded__636a2',
+        'questPanelAcceptedExpandedContent': 'questAcceptedContent__636a2',
+        'headerText': 'headerText__636a2',
+        'submenuIcon': 'submenuIcon__636a2',
+        // 3 dots
+      ),
+    ),
 
     // can't remember where these are. suffix seems like they belong in sidebar>server>header
     'communityInfo': 'communityInfo_f37cb1',
@@ -4870,21 +4913,6 @@ $classes: (
       'background': 'containerBackground_d4ced7',
     ),
 
-    // Click either an Emoji or a Sticker within chat
-    'emojiStickerPopout': (
-      'container': 'popoutContainer__0f481',
-      'emojiSection': 'emojiSection_d5cd2d',
-      // also used with sticker
-      'guildSection': 'guildSection_d5cd2d',
-      'guildTitle': 'guildTitle_d5cd2d',
-
-      'loading': 'popoutLoader_dfa983',
-      'loadingBackground': 'popoutLoadingBackground__0f481',
-      // contains mask
-      'loadingForeground': 'popoutLoadingForeground__0f481',
-      // contains background-image
-    ),
-
     'apps': (
       'popout': 'contentWrapper__9c62c',
       'container': 'container__927fc',
@@ -5159,8 +5187,8 @@ $classes: (
 
         // Click the "mark inbox as read" button and another modal pops up
         'markAll': (
-            'content': 'content__1688d',
-          ),
+          'content': 'content__1688d',
+        ),
       ),
     ),
 
@@ -5201,6 +5229,32 @@ $classes: (
         // Channel popout
         'channelPopout': 'popout__76f04',
       ),
+
+    
+    // @everyone with a larger server
+    'mentionWarning': (
+      'popout': 'contentWarningPopout_be95d0',
+      'body': 'body_be95d0',
+      'animation': 'animation_be95d0',
+      'content': 'content_be95d0',
+      'header': 'header_be95d0',
+      'footer': 'footer_be95d0',
+    ),
+
+    // Click either an Emoji or a Sticker within chat
+    'emojiStickerPopout': (
+      'container': 'popoutContainer__0f481',
+      'emojiSection': 'emojiSection_d5cd2d',
+      // also used with sticker
+      'guildSection': 'guildSection_d5cd2d',
+      'guildTitle': 'guildTitle_d5cd2d',
+
+      'loading': 'popoutLoader_dfa983',
+      'loadingBackground': 'popoutLoadingBackground__0f481',
+      // contains mask
+      'loadingForeground': 'popoutLoadingForeground__0f481',
+      // contains background-image
+    ),
   ),
 
   'modals': (
@@ -5513,16 +5567,6 @@ $classes: (
       // modal itself
       'options': 'options__949ab',
       'optionContainer': 'optionContainer__949ab',
-    ),
-
-    // @everyone with a larger server
-    'mentionWarning': (
-      'popout': 'contentWarningPopout_be95d0',
-      'body': 'body_be95d0',
-      'animation': 'animation_be95d0',
-      'content': 'content_be95d0',
-      'header': 'header_be95d0',
-      'footer': 'footer_be95d0',
     ),
 
     // On a message with reactions, right click and click "Show reactions"
@@ -6627,16 +6671,6 @@ $classes: (
           // src/channels/panels.scss
           'accountPanelTagless': 'withTagless_b2ca13',
           // src/channels/panels.scss
-          'questPanel': 'wrapper__0d616',
-          // src/channels/panels.scss
-          'questPanelAccepted': 'contentWrapperAccepted__0d616',
-          // src/channels/panels.scss
-          'questPanelExpanded': 'contentWrapperExpanded__0d616',
-          // src/channels/panels.scss
-          'questPanelAcceptedExpandedBackground': 'postEnrollmentBackground_c3427e',
-          // src/channels/panels.scss
-          'questPanelAcceptedExpandedContent': 'questAcceptedContent__636a2',
-          // src/channels/panels.scss
           'listeningAlongPanel': 'listeningAlong_e0cf27',
           // src/channels/panels.scss
           'rtcConnectionStatus': 'rtcConnectionStatus_c0cb95',
@@ -6649,8 +6683,6 @@ $classes: (
           // src/channels/privateChannels.scss
           'callInviteButton': 'button_c6e099',
           // src/chat/call.scss
-          'operations': 'operations_bab751',
-          // src/messages/message.scss
           'autocompleteIconForeground': 'iconForeground__13533',
           // src/chat/textAreaAutoComplete.scss
           'autocompleteRowSubheading': 'autocompleteRowSubheading__13533',
@@ -6688,13 +6720,6 @@ $classes: (
           'gameVerifiedIcon': 'gameVerifiedIcon_cc46f0',
           'nitroTrialBadge': 'premiumTrialAcknowledgedBadge__4c1e4',
           'scrollerWrap': 'wrapper__28a87',
-          'spinner': 'spinner__0b5bb',
-          'spinnerCircle': 'spinningCircle__0b5bb',
-          'spinnerCircleInner': 'spinningCircleInner__0b5bb',
-          'spinnerCirclePath': 'path__0b5bb',
-          'spinnerCirclePath3': 'path3__0b5bb',
-          'spinnerPulsingEllipsisPopout': 'spinner_e90879',
-          'spinnerPulsingEllipsis': 'pulsingEllipsis__0b5bb',
           'commandTooltip': 'tooltip_c530da',
           'commandTooltipPointer': 'tooltipPointer_c530da',
           'upsellTooltipText': 'upsellTooltipWrapper__675aa',
