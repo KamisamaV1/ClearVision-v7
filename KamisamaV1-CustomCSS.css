@@ -1,4 +1,7 @@
-
+/*Radial status*/
+:root {
+    --rs-small-width: 3px !important;
+}
 /*Shiggy loading*/
 .content_a2f514 {
     display: flex;
