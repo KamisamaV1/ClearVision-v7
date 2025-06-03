@@ -3,7 +3,7 @@
 /*member list, profile*/
 #{c(avatar mask)} rect {
   // OFFLINE
-  &[fill*='#83838b'] {
+  &[fill*='#82838b'] {
     fill: cv('color.offline');
   }
   // ONLINE
@@ -19,7 +19,7 @@
     fill: cv('color.dnd');
   }
   // STREAMING
-  &[fill*='#593695'] {
+  &[fill*='#9147ff'] {
     fill: cv('color.streaming');
   }
 }

@@ -72,14 +72,14 @@ $cv: (
       percent: var(--background-shading-percent),
       // shading amount
       card: var(--hsl-card-shading),
-      cardInverted: var(--hsl-card-shading-inverted),
+      cardInner: var(--background-modifier-accent),
       // mainly used for embeds, most modals, random things
       popout: var(--hsl-popout-shading),
-      modal: var(--hsl-popout-shading),
+      modal: var(--hsl-modal-shading),
       // discord vars
       input: (
-          bg: var(--input-background),
-          border: var(--input-border),
+          bg: var(--hsl-input-shading),
+          border: var(--hsl-input-border-shading),
         ),
       hover: var(--background-modifier-accent),
     ),
@@ -115,18 +115,24 @@ $cv: (
       // APP BACKGROUND - MAIN BACKGROUND YOU SEE EVERYWHERE
       app: (
           img: var(--background-image),
+          pos: var(--background-position),
+          size: var(--background-size),
           attach: var(--background-attachment),
           filter: var(--background-filter),
         ),
       // USER POPOUT BACKGROUND - NON-NITRO PROFILE POPOUT MODAL
       popout: (
           img: var(--user-popout-image),
+          pos: var(--user-popout-position),
+          size: var(--user-popout-size),
           attach: var(--user-popout-attachment),
           filter: var(--user-popout-filter),
         ),
       // USER MODAL BACKGROUND - NON-NITRO PROFILE MODAL
       modal: (
           img: var(--user-modal-image),
+          pos: var(--user-modal-position),
+          size: var(--user-modal-size),
           attach: var(--user-modal-attachment),
           filter: var(--user-modal-filter),
         )
@@ -134,5 +140,6 @@ $cv: (
   // HOME BUTTON - BUTTON ABOVE YOUR SERVERS
   home: (
       icon: var(--home-icon),
+      size: var(--home-size),
     )
 );

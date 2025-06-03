@@ -6,6 +6,9 @@
     #{c(chat reactions me)} {
       background: hsl(from cv('color.main') h s l/.15);
       border-color: cv('color.main');
+      #{c(chat reactions count)} {
+        color: var(--interactive-active);
+      }
     }
   }
   :is(#{c(chat reactions reaction)}, #{c(chat reactions reactionBtn)}) {
@@ -18,6 +21,14 @@
 // TOOLTIP
 #{c(chat reactions tooltip tooltip)} {
   background: cv('shading.popout');
+}
+:is(#{c(main themeLight)}, #{c(main themeDark)}) {
+  #{c(chat reactions tooltip button)} {
+    background: cv('color.main');
+    &:hover {
+      background: cv('color.hover');
+    }
+  }
 }
 
 // SUPER REACTIONS

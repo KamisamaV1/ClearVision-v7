@@ -26,19 +26,9 @@
 
 // PROFILES
 #{c(userSettings profiles uploadImageOption)} {
-  background: cv('shading.cardInverted');
+  background: cv('shading.cardInner');
   &:hover {
     border: 2px solid cv('color.main');
-  }
-}
-#{c(main visualRefreshChatInput)} {
-  #{c(userSettings profiles bioTextAreaContainer)} {
-    background: cv('shading.input.bg');
-    box-shadow: 0 0 0 2px cv('shading.input.border');
-    &:focus-within {
-      border-color: transparent;
-      box-shadow: 0 0 2px 2px cv('color.main');
-    }
   }
 }
 
@@ -58,8 +48,35 @@
   }
 }
 #{c(userSettings family row)} {
-  background: cv('shading.cardInverted');
+  background: cv('shading.cardInner');
   border: none;
+}
+
+// AUTHORISED APPS
+#{c(userSettings authedApps app)} {
+  background: cv('shading.card');
+}
+#{c(userSettings authedApps header)} {
+  background: transparent;
+}
+#{c(userSettings authedApps detailsContainer)} {
+  background: transparent;
+  #{c(userSettings authedApps detailsSection)} {
+    background: cv('shading.cardInner');
+    padding: 16px;
+    &:active {
+      background: cv('shading.cardInner');
+    }
+    &:first-child {
+      border-radius: 8px 8px 0 0;
+    }
+    &:nth-child(2) {
+      border-radius: 0 0 8px 8px;
+    }
+  }
+}
+#{c(userSettings authedApps actionMenuButton)} {
+  background: cv('shading.cardInner');
 }
 
 // DEVICES
@@ -73,15 +90,24 @@
 #{c(userSettings connections connection)} {
   background: cv('shading.card');
 }
-#{c(userSettings connections accountButtonInner)} {
-  background-color: cv('shading.cardInverted');
+#{c(userSettings connections connectionsContainer)} {
+  justify-content: center;
+}
+#{c(userSettings connections accountButtonInner)},
+#{c(userSettings connections modal accountButtonInner)} {
+  background-color: cv('shading.cardInner');
+  border: 2px solid transparent;
+  &:hover {
+    background-color: cv('shading.hover');
+    border-color: cv('color.main');
+  }
 }
 #{c(userSettings connections connectionHeader)} {
   background: transparent;
   padding-bottom: 0;
 }
 #{c(userSettings connections connectionMetadataContainer)} {
-  background-color: cv('shading.cardInverted');
+  background-color: cv('shading.cardInner');
 }
 
 // NITRO - NO NITRO
@@ -127,7 +153,7 @@
   background: transparent;
 }
 #{c(userSettings billing expandedInfo)} {
-  background: cv('shading.cardInverted');
+  background: cv('shading.cardInner');
 }
 :is(#{c(main themeLight)}, #{c(main themeDark)}) {
   #{c(userSettings billing hoverablePayment)} {
@@ -161,7 +187,7 @@
 }
 :is(#{c(main themeLight)}, #{c(main themeDark)}) {
   #{c(userSettings voice sensitivityBar)} {
-    background-color: cv('shading.cardInverted');
+    background-color: cv('shading.cardInner');
   }
 }
 #{c(userSettings voice soundButton)} {

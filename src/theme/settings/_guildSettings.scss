@@ -6,10 +6,10 @@
 }
 #{c(guildSettings profile traitContainer)} {
   background: cv('shading.input.bg');
-  border: none;
-  box-shadow: 0 0 1px 1px cv('shading.input.border');
+  border-color: cv('shading.input.border');
   &:focus-within {
-    box-shadow: 0 0 2px 1px cv('color.main');
+    border-color: cv('color.main');
+    box-shadow: 0 0 2px 0 cv('color.main');
   }
 }
 #{c(guildSettings profile traitEmoji)} {
@@ -23,6 +23,17 @@
   &:focus-within {
     box-shadow: none;
   }
+}
+
+// STICKERS
+#{c(guildSettings stickers wrapper)} {
+  &,
+  &:hover {
+    background: transparent;
+  }
+}
+#{c(guildSettings stickers action)} {
+  background: cv('shading.popout');
 }
 
 // MEMBERS
@@ -41,6 +52,13 @@
     }
   }
 }
+#{c(guildSettings roles defaultPermsIcon)} {
+  background: cv('color.main');
+  color: var(--interactive-active);
+}
+#{c(guildSettings roles circleButton)} {
+  margin-left: 10px;
+}
 #{c(guildSettings roles row)} {
   &:hover {
     &:not(#{c(guildSettings roles rowDisableHover)}) {
@@ -53,6 +71,22 @@
     }
   }
 }
+// ROLES - EDIT
+#{c(guildSettings roles edit backContainer)} {
+  background: transparent;
+}
+#{c(guildSettings roles edit header)} {
+  background: transparent;
+  transition: background .15s ease-in-out;
+}
+#{c(guildSettings roles edit headerStickyElevated)} {
+  background: cv('shading.popout');
+}
+
+// ROLES - VIEW SERVER AS ROLE
+#{c(guildSettings roles preview dropdown)} {
+  background: cv('shading.popout');
+}
 
 // ACCESS
 #{c(guildSettings access joinOptions)} {
@@ -60,8 +94,22 @@
 }
 #{c(guildSettings access joinOptionContent)} {
   &#{c(guildSettings access joinOptionActive)} {
-    background: cv('shading.cardInverted');
+    background: cv('shading.cardInner');
   }
+}
+
+// SAFETY SETUP
+#{c(main visualRefresh)} {
+  #{c(guildSettings safety changelog)},
+  #{c(guildSettings safety checklist)},
+  #{c(guildSettings safety itemWrapper)} {
+    background: cv('shading.card');
+    border: none;
+  }
+}
+#{c(guildSettings safety pill)} {
+  background: cv('shading.card');
+  border: 1px solid cv('color.main');
 }
 
 // AUDIT LOG
@@ -75,7 +123,118 @@
   }
 }
 
+// BANS
+#{c(main visualRefresh)} {
+  #{c(guildSettings bans scrollerContainer)} {
+    background: cv('shading.card');
+    border: none;
+  }
+}
+
+// AUTOMOD
+#{c(guildSettings automod badge)} {
+  border-color: transparent;
+}
+#{c(main visualRefresh)} {
+  #{c(guildSettings automod editCard)} {
+    background: cv('shading.card');
+    border: none;
+  }
+  #{c(guildSettings automod contentContainer)} {
+    background: cv('shading.cardInner');
+  }
+  #{c(guildSettings automod keywordsTextArea)} {
+    background: cv('shading.input.bg');
+    border-color: cv('shading.input.border');
+    &:focus {
+      border-color: cv('color.main');
+      box-shadow: 0 0 2px 0 cv('color.main');
+    }
+  }
+}
+#{c(guildSettings automod pillContainer)},
+#{c(guildSettings automod stepIcon)} {
+  background: cv('shading.cardInner');
+}
+#{c(guildSettings automod stepperContainer)} {
+  background: transparent;
+  border: none;
+}
+#{c(guildSettings automod regexTextArea)} {
+  background: cv('shading.input.bg');
+  border-color: cv('shading.input.border');
+  &:focus-within {
+    border-color: cv('color.main');
+    box-shadow: 0 0 2px 0 cv('color.main');
+  }
+}
+
+// ENABLE COMMUNITY
+#{c(guildSettings community enable guildDetails)} {
+  background: cv('shading.popout');
+}
+#{c(guildSettings community enable featureCard)} {
+  background: cv('shading.card');
+}
+#{c(guildSettings community enable featureIcon)} {
+  background: transparent;
+}
+
+// COMMUNITY OVERVIEW
+#{c(main visualRefresh)} {
+  #{c(guildSettings community overview upsellContainer)} {
+    background: cv('shading.card');
+  }
+  #{c(guildSettings community overview upsellFooter)} {
+    background: transparent;
+  }
+}
+
+// SERVER SUBSCRIPTIONS
+#{c(guildSettings subs howItWorksContainer)} {
+  background: transparent;
+  padding: 0;
+}
+#{c(guildSettings subs howItWorksImageContainer)} {
+  background: transparent;
+}
+#{c(guildSettings subs card)} {
+  background: cv('shading.card');
+}
+#{c(guildSettings subs avatarCard)} {
+  background: cv('shading.cardInner');
+}
+#{c(guildSettings subs avatarConnector)} {
+  border-color: cv('shading.cardInner') !important;
+}
+#{c(guildSettings subs viewServerButton)} {
+  background: cv('color.main');
+  &:hover {
+    background: cv('color.hover');
+  }
+}
+
+// SERVER BOOST
+#{c(main visualRefresh)} {
+  #{c(guildSettings boost tierCard)} {
+    border: none;
+  }
+  #{c(guildSettings boost tierHeader)},
+  #{c(guildSettings boost tierBody)} {
+    background: cv('shading.card');
+    border: none;
+  }
+}
+
 // SERVER TEMPLATE
 #{c(guildSettings template descriptionBox)} {
+  background: cv('shading.card');
+}
+
+// SERVER INSIGHTS
+#{c(guildSettings insights developerPortal)} {
+  background: transparent;
+}
+#{c(guildSettings insights analyticsCard)} {
   background: cv('shading.card');
 }

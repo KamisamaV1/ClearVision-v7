@@ -21,6 +21,13 @@
   }
 }
 
+// SYSTEM MESSAGE
+#{c(chat systemMessageContent)} {
+  a {
+    color: var(--text-link);
+  }
+}
+
 // CODEBLOCK
 #{c(main visualRefresh)} {
   #{c(chat markup)} {
@@ -41,7 +48,7 @@
 #{c(chat replied spine)} {
   border-color: cv('color.main');
   &:hover,
-  #{c(chat replied contentHovered)} {
+  &#{c(chat replied contentHovered)} {
     border-color: cv('color.hover');
   }
 }
@@ -55,8 +62,13 @@
 }
 
 // EXECUTE COMMAND
-#{c(chat replied executedCommand)} {
-  #{c(chat replied commandName)} {
+#{c(chat replied app spine)} {
+  &::before {
+    border-color: cv('color.main');
+  }
+}
+#{c(chat replied app executedCommand)} {
+  #{c(chat replied app launcherCommandName)} {
     color: cv('color.main');
     background: transparent;
     &:hover {
@@ -107,15 +119,6 @@
   }
 }
 
-// LINKS
-a {
-  #{c(chat systemMessageContent)} &,
-  #{c(chat markup)} &,
-  & {
-    color: cv('color.main');
-  }
-}
-
 // PUBLISH TO FOLLOWERS
 #{c(chat publish container)} {
   background: cv('shading.card');
@@ -149,6 +152,14 @@ a {
   }
   #{c(embeds invite statusOffline)} {
     background: cv('color.offline');
+  }
+
+  #{c(embeds invite guildInviteContainer)} {
+    background: cv('shading.card');
+  }
+
+  #{c(embeds invite guildInviteFooter)} {
+    background: none;
   }
 
   // GIFTS
@@ -210,6 +221,12 @@ a {
 
   // VOICE MESSAGE
   #{c(embeds voiceMessage container)} {
+    background: cv('shading.card');
+    border: none;
+  }
+
+  #{c(embeds poll finished container)},
+  #{c(embeds poll container)} {
     background: cv('shading.card');
     border: none;
   }
