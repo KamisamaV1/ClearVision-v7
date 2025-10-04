@@ -1,3 +1,8 @@
+/*Main Chat sidebar transparency*/
+.high-contrast-mode .page_c48ade, .theme-midnight .page_c48ade {
+    border-left: transparent;
+}
+
 /*Radial status*/
 :root {
     --rs-small-width: 3px !important;
@@ -19,18 +24,13 @@
     }
 }
 /* Aligned Chat Box and Typing indicator */
-.container_c48ade {
-  --custom-chat-input-margin-bottom: 22px;
-}
-:root {
-  --custom-channel-textarea-text-area-height: 42px;
-}
-.visual-refresh .base_b88801 {
+
+/*.visual-refresh .base_b88801 {
   font-size: 13.5px;
   height: 22px;
   display: flex !important;
   align-items: center !important;
-}
+}*/
 /* Round Server Icons */
 [class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
 [data-list-item-id*="guildsnav_"] > [class*="icon_"] {
