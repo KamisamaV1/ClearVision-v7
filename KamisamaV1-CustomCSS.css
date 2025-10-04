@@ -23,14 +23,6 @@
          margin-bottom: 96px;
     }
 }
-/* Aligned Chat Box and Typing indicator */
-
-/*.visual-refresh .base_b88801 {
-  font-size: 13.5px;
-  height: 22px;
-  display: flex !important;
-  align-items: center !important;
-}*/
 /* Round Server Icons */
 [class*="closedFolderIconWrapper_"] > [class*="guildIcon_"],
 [data-list-item-id*="guildsnav_"] > [class*="icon_"] {
@@ -48,7 +40,7 @@
 .visual-refresh .panel__5dec7 {
     border-bottom: none;
 }
-/*Channel Text Area*/
+/*Channel Text Area transparency*/
 .visual-refresh .channelTextArea_f75fb0 {
     background: transparent !important;
 }
