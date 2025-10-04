@@ -1,5 +1,5 @@
 /**
- * @name ClearVision V7 Love Hashira from Kimetsu no Yaiba for Vencord
+ * @name ClearVision V7 Klee from Genshin for Vencord
  * @author ClearVision Team
  * @version 7.0.1
  * @description Highly customizable theme for Vencord.
@@ -33,7 +33,7 @@
   
   /* APP BACKGROUND */
   --background-shading-percent: 0%; /* app background shading amount (0 for complete smoothness) [default: 100%] */
-  --background-image: url(https://pixvid.org/image/UVPlz); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/winter.jpg)]*/
+  --background-image: url(https://kamisamav1.github.io/kamisamav1.clearvision.io/1317128.jpeg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/winter.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size (px) [default: cover] */
   --background-attachment: fixed; /* app background attachment [default: fixed] */
